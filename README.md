@@ -1,5 +1,10 @@
 # Challenge Delivery Much
 
+## Clone repository
+```
+git clone https://github.com/slthiago/ChallengeDeliveryMuch.git
+```
+
 ## Project setup
 ```
 npm install
