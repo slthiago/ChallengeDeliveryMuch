@@ -1,0 +1,23 @@
+.regions {
+  height: 100vh;
+  overflow: auto;
+}
+
+.regions thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #f9f8f8;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  padding: 8px 16px;
+}
+th {
+  background: #eee;
+}

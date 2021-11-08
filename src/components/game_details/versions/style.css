@@ -1,0 +1,12 @@
+.versions {
+  overflow: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-item {
+  text-transform: capitalize;
+  cursor: default;
+}

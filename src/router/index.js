@@ -11,13 +11,45 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+    path: '/game-details/generation-i',
+    name: 'generation-i',
+    component: () => import(/* webpackChunkName: "about" */ '../views/GameDetails.vue')
+  },
+  {
+    path: '/game-details/generation-ii',
+    name: 'generation-ii',
+    component: () => import(/* webpackChunkName: "about" */ '../views/GameDetails.vue')
+  },
+  {
+    path: '/game-details/generation-iii',
+    name: 'generation-iii',
+    component: () => import(/* webpackChunkName: "about" */ '../views/GameDetails.vue')
+  },
+  {
+    path: '/game-details/generation-iv',
+    name: 'generation-iv',
+    component: () => import(/* webpackChunkName: "about" */ '../views/GameDetails.vue')
+  },
+  {
+    path: '/game-details/generation-v',
+    name: 'generation-v',
+    component: () => import(/* webpackChunkName: "about" */ '../views/GameDetails.vue')
+  },
+  {
+    path: '/game-details/generation-vi',
+    name: 'generation-vi',
+    component: () => import(/* webpackChunkName: "about" */ '../views/GameDetails.vue')
+  },
+  {
+    path: '/game-details/generation-vii',
+    name: 'generation-vii',
+    component: () => import(/* webpackChunkName: "about" */ '../views/GameDetails.vue')
+  },
+  {
+    path: '/game-details/generation-viii',
+    name: 'generation-viii',
+    component: () => import(/* webpackChunkName: "about" */ '../views/GameDetails.vue')
+  },
 ]
 
 const router = new VueRouter({

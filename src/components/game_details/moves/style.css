@@ -1,0 +1,12 @@
+.moves {
+  height: 100vh;
+  overflow: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  text-transform: capitalize;
+  cursor: default;
+}

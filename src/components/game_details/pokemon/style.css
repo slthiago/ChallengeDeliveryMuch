@@ -1,0 +1,215 @@
+.pokemons {
+  padding: 40px 0;
+  height: 100vh;
+}
+
+.total-poke {
+  margin-top: 20px;
+}
+
+.poke-total {
+  color: #a4a4a4;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.poke-total-number {
+  background: #ffd435;
+  padding: 5px 10px;
+  color: black;
+  border-radius: 5px;
+}
+
+.poke-row {
+  height: 100vh;
+  overflow: auto;
+}
+
+.poke-item {
+  max-width: 240px;
+  margin-bottom: 40px;
+}
+
+.poke-img {
+  background: #e8e8e8;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.poke-img img {
+  width: 75%;
+  height: auto;
+}
+
+.poke-id {
+  color: #a4a4a4;
+  font-size: 0.8em;
+}
+
+.poke-name {
+  text-transform: capitalize;
+}
+
+.abilities {
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: #f9f8f8;
+}
+
+.grass {
+  background: #65b626;
+}
+
+.poison {
+  background: #ad5ca5;
+}
+
+.fire {
+  background: #fd7d23;
+}
+
+.water {
+  background: #4592c4;
+}
+
+.flying {
+  background: #3dc6ef;
+}
+
+.bug {
+  background: #729f3f;
+}
+
+.normal {
+  background: #a4acaf;
+}
+
+.ground {
+  background: #aa9841;
+}
+
+.eletric {
+  background: #eed434;
+}
+
+.fairy {
+  background: #fcb8e9;
+}
+
+.fighting {
+  background: #d56723;
+}
+
+.psychic {
+  background: #f365b9;
+}
+
+.rock {
+  background: #a28c21;
+}
+
+.steel {
+  background: #9eb7b8;
+}
+
+.ice {
+  background: #51c3e7;
+}
+
+.ghost {
+  background: #7b62a3;
+}
+
+.dragon {
+  background: #f16e56;
+}
+
+/* MODAL */
+
+.modal::before {
+  content: "";
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.modal_ativo {
+  display: flex !important;
+}
+
+.modal_container {
+  width: 600px;
+  height: 400px;
+  background: #f9f8f8;
+  padding: 20px;
+  border-radius: 20px;
+  animation: produto 0.3s forwards;
+}
+
+@keyframes produto {
+  from {
+    transform: translateX(50px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.modal_fechar {
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1), 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-img {
+  background: #e8e8e8;
+  max-width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.modal-img img {
+  width: 200%;
+  height: auto;
+}
+
+.modal-title {
+  text-transform: capitalize;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+
+.info {
+  margin-top: 20px;
+}
